@@ -1,27 +1,21 @@
-$num1=3;
-$num2=5;
-
+$num=1
 def compute(n)
-  ary= Array(1..n);
-  newAry = Array(n);
+  ary=Array(1..n);
+  newAry = []
   ary.each do |i|
-    if ary[i].to_i%$num1 == 0 and ary[i].to_i%$num2 == 0
-      newAry<<"FizzBuzz";
-    elsif ary[i].to_i%$num1 == 0
-      newAry<<"Fizz";
-    elsif ary[i].to_i%$num2 == 0
-      newAry<<"Buzz";
-    else
-    newAry<<ary[i];
-    end;
+    $num="#{i}";
+    if i%3 == 0 and i%5==0
+      $num="FizzBuzz"
+    elsif i%3 == 0
+      $num = "Fizz"
+    elsif i%5 == 0
+      $num = "Buzz"
+    end
+    newAry <<$num
   end
-  puts
-puts(newAry)
+  return newAry
 end
 
 
-
-
-
-compute(10);
+puts compute(15);
 
