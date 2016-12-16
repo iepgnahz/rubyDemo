@@ -1,0 +1,24 @@
+Ruby基础
+
+F freewind 系统管理员 22天之前
+学习目标
+
+了解并掌握Ruby的基础知识和常用概念，为参加后面的培训及学习打下基础。
+
+学习内容
+
+安装rbenv，并通过它来安装及管理ruby: https://github.com/rbenv/rbenv
+学习Ruby的基础知识，比如输入输出，基础语法，数据类型，控制结构，迭代器，类与方法，模块概念等
+推荐使用《Ruby基础教程》这本书来学习。
+
+工具与资源
+
+书籍《Ruby基础教程》: https://book.douban.com/subject/25958845/
+在线学习ruby：http://tryruby.org/
+Ruby学习资源汇总：http://iwanttolearnruby.com/
+ruby中文学习社区：https://ruby-china.org/
+ruby练习题：http://rubyquiz.com/
+Ruby在线学习教程：https://www.codecademy.com/zh/learn/ruby
+作业与练习
+
+使用ruby完成这道FizzBuzz题目：https://leetcode.com/problems/fizz-buzz/，并写一篇博客来展示你思路和对代码的解释

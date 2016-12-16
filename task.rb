@@ -1,21 +1,17 @@
-$num=1
 def compute(n)
-  ary=Array(1..n);
   newAry = []
-  ary.each do |i|
-    $num="#{i}";
+  (1..n).each do |i|
     if i%3 == 0 and i%5==0
-      $num="FizzBuzz"
+      newAry << "FizzBuzz"
     elsif i%3 == 0
-      $num = "Fizz"
+      newAry << "Fizz"
     elsif i%5 == 0
-      $num = "Buzz"
+      newAry << "Buzz"
+    else
+      newAry << i.to_s
     end
-    newAry <<$num
   end
   return newAry
 end
 
-
 puts compute(15);
-
